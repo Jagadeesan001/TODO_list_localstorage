@@ -51,7 +51,8 @@ const Todo = () => {
                 border: "2px solid rgb(97, 90, 90)",
                 padding: "4px",
                 marginRight: "11px",
-                borderRadius:"13px"
+                borderRadius:"13px",
+                color:"black"
             }} placeholder="Enter your Goals" value={val} onChange={(evt) => { setval(evt.target.value) }} />
             <button style={{
                 backgroundColor: "blue",
